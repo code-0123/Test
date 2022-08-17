@@ -10,4 +10,9 @@ public class HomeController {
     public String test(){
         return "index";
     }
+
+    @RequestMapping(value = "/image")
+    public String test2(){
+        return "test";
+    }
 }
